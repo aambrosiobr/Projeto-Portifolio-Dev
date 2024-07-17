@@ -50,3 +50,16 @@ span {
   font: 400 20px/120% var(--font-family-incon);
   color: var(--red);
 }
+
+h1 {
+  font: var(--h1);
+  color: var(--gray-600);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p1 {
+  font: var(--text-sm);
+  color: var(--gray-400);
+  text-align: center;
+}
