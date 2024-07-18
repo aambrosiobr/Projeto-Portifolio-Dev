@@ -1,0 +1,15 @@
+.contact {
+  width: 1336px;
+  height: 787px;
+  padding: 128px 120px 200px 120px;
+
+  border: solid 1px red;
+}
+
+.main-contacts {
+  width: 420px;
+  height: 91px;
+  margin: auto;
+
+  border: solid 1px blue;
+}

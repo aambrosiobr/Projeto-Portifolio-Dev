@@ -8,6 +8,7 @@
 .grid-cards {
   width: 1040px;
   margin: auto;
+  margin-top: 56px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
