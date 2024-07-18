@@ -7,14 +7,12 @@
 
 .grid-cards {
   width: 1040px;
-  height: 584px;
   margin: auto;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 24px 24px;
-  border-radius: 8px;
   border: solid 1px blue;
 }
 
@@ -28,14 +26,16 @@
 .img-cards {
   width: 306px;
   height: 156px;
-  margin-top: 20px;
-  padding: 12px;
+  margin-block: 12px 20px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .text-cards {
   width: 306px;
   height: 75px;
-  margin-top: 20px;
-
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 17px;
   border: solid 1px red;
 }
