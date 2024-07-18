@@ -25,9 +25,9 @@
   --font-family-incon: "inconsolata", monospace;
   --font-family-mavem: "Mavem Pro", sans-serif;
 
-  --h1: 700 56px/120% var(--font-family-asap);
-  --h2: 700 24px/120% var(--font-family-asap);
-  --h3: 700 16px/120% var(--font-family-asap);
+  --h1: 600 56px/120% var(--font-family-asap);
+  --h2: 600 24px/120% var(--font-family-asap);
+  --h3: 600 16px/120% var(--font-family-asap);
 
   --subtitle: 400 20px/120% var(--font-family-incon);
 
@@ -56,6 +56,19 @@ h1 {
   color: var(--gray-600);
   text-align: center;
   margin-bottom: 20px;
+}
+
+h2 {
+  font: var(--h2);
+  color: var(--gray-600);
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+h3 {
+  font: var(--h3);
+  color: var(--gray-600);
+  margin-bottom: 8px;
 }
 
 p.paragrafo-2 {
@@ -89,9 +102,7 @@ p.paragrafo-3 {
   text-align: center;
 }
 
-h2 {
-  font: var(--h2);
-  color: var(--gray-600);
-  text-align: center;
-  margin-bottom: 56px;
+p.text-grid {
+  font: 400 14px/140% var(--font-family-mavem);
+  color: var(--gray-400);
 }

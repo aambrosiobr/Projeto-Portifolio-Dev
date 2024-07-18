@@ -14,5 +14,28 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 24px 24px;
+  border-radius: 8px;
   border: solid 1px blue;
+}
+
+.cards {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+}
+
+.img-cards {
+  width: 306px;
+  height: 156px;
+  margin-top: 20px;
+  padding: 12px;
+}
+
+.text-cards {
+  width: 306px;
+  height: 75px;
+  margin-top: 20px;
+
+  border: solid 1px red;
 }
