@@ -4,3 +4,15 @@
   border: solid 1px purple;
   padding: 72px 120px 144px;
 }
+
+.grid-cards {
+  width: 1040px;
+  height: 584px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px 24px;
+  border: solid 1px blue;
+}
