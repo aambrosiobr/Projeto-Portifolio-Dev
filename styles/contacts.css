@@ -10,6 +10,23 @@
   width: 420px;
   height: 91px;
   margin: auto;
+  margin-bottom: 48px;
 
   border: solid 1px blue;
+}
+
+.links {
+  width: 400px;
+  height: 320px;
+  margin: auto;
+
+  border: solid 1px blue;
+}
+
+.links-contact {
+  width: 400px;
+  height: 68px;
+  margin: auto;
+
+  border: solid 1px greenyellow;
 }
