@@ -116,3 +116,13 @@ p.text-grid {
   font: 400 14px/140% var(--font-family-mavem);
   color: var(--gray-400);
 }
+
+p.paragrado-links {
+  font: 400 14px/140% var(--font-family-mavem);
+  color: var(--gray-400);
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-400);
+}

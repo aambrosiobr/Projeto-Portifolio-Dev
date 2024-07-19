@@ -2,8 +2,7 @@
   width: 1336px;
   height: 787px;
   padding: 128px 120px 200px 120px;
-
-  border: solid 1px red;
+  background-image: url(../assets/images/contact-background.png);
 }
 
 .main-contacts {
@@ -11,22 +10,36 @@
   height: 91px;
   margin: auto;
   margin-bottom: 48px;
-
-  border: solid 1px blue;
 }
 
 .links {
   width: 400px;
   height: 320px;
   margin: auto;
-
-  border: solid 1px blue;
 }
 
 .links-contact {
+  background-color: var(--gray-300);
   width: 400px;
   height: 68px;
-  margin: auto;
+  display: flex;
 
-  border: solid 1px greenyellow;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  align-items: center;
+
+  padding: 20px;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.img-links {
+  width: 28px;
+  height: 28px;
+}
+
+.img-arrow {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
 }

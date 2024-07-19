@@ -1,7 +1,6 @@
 .project {
   width: 1336px;
   height: 917px;
-  border: solid 1px purple;
   padding: 72px 120px 144px;
 }
 
@@ -14,7 +13,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 24px 24px;
-  border: solid 1px blue;
 }
 
 .cards {
@@ -38,5 +36,4 @@
   margin-left: 12px;
   margin-right: 12px;
   margin-bottom: 17px;
-  border: solid 1px red;
 }

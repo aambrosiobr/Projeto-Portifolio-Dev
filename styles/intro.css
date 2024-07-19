@@ -1,29 +1,29 @@
 .container {
   width: 1336px;
-  border: solid 1px red;
   margin: auto;
 }
 
 .introduction {
   width: 1336px;
   height: 750px;
-  border: solid 1px green;
   margin: auto;
+
   background-image: url(../assets/images/intro-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .information {
   width: 754px;
   height: 455px;
-  border: solid 1px blue;
   margin: auto;
-  margin-block: 120px;
+  padding-block: 120px;
 }
 
 .header {
   width: 680px;
   height: 327px;
-  border: solid 1px yellow;
+
   margin: auto;
 }
 

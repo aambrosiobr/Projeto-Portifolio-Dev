@@ -2,7 +2,7 @@
   width: 1336px;
   height: 480px;
   padding: 88px 120px 120px 120px;
-  border: solid 1px greenyellow;
+  background-color: var(--gray-100);
 }
 
 .grid-services {
@@ -16,7 +16,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 
   gap: 24px 24px;
-  border: solid 1px blue;
 }
 
 img.services {
